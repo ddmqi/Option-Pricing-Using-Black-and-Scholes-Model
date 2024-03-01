@@ -51,7 +51,6 @@ def call_sans_div(S, K, r, t, sigma) :
     
     return price
 
-#print(call_sans_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, vol))
 print(f"Le valeur du CALL sans dividende: {call_sans_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, vol)}")
 
 
@@ -66,7 +65,6 @@ def put_sans_div(S, K, r, t, sigma) :
     
     return price
 
-#print(put_sans_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, vol))
 print(f"Le valeur du PUT sans dividende: {put_sans_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, vol)}")
 
 
@@ -85,7 +83,6 @@ def call_avec_div(S, K, r, t, q, sigma) :
     
     return price
 
-#print(call_sans_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, vol))
 print(f"Le valeur du CALL avec dividende: {call_avec_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, taux_dividende ,vol)}")
 
 
@@ -100,7 +97,6 @@ def put_avec_div(S, K, r, t, q, sigma) :
     
     return price
 
-#print(put_sans_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, vol))
 print(f"Le valeur du PUT avec dividende: {put_avec_div(Spot, Strike, Taux_sans_risque, temps_restant_annee, taux_dividende ,vol)}")
 
 
